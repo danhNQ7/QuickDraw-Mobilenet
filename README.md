@@ -6,6 +6,7 @@
 Đây là 1 challenge của Google trên Kaggle, dataset lấy từ trò chơi “Quick, Draw !” của Google là các bản vẽ. Mục tiêu đề tài là build được 1 recognizer học từ dataset của trò chơi “Quick, Draw” giúp nhận dạng object từ các bản vẽ tay
 **Input:** Đầu vào là các bản vẽ đc ghi lại dưới dạng vector thời gian
 **Output:** Đầu ra là dự đoán đối tượng hay vật thể có trong bức vẽ
+![alt](https://github.com/danhNQ7/QuickDraw-Mobilenet/blob/master/images/intro.jpg)
 ## Tập dữ liệu
 ### Dataset
 Là bản vẽ của 340 objects ( apple, bee, calendar,...) bao gồm 2 loại data là data_raw và data_simplified. 
@@ -34,5 +35,12 @@ Sử dụng GPU :Tesla K20c (5GB)
 Thời gian train: 1020s / epoch
 ### Đánh giá mô hình
 Sử dụng độ đo Mean Average Precision @ 3 (MAP@3)
+
+![alt](https://github.com/danhNQ7/QuickDraw-Mobilenet/blob/master/images/mAp.jpg)
+![alt](https://github.com/danhNQ7/QuickDraw-Mobilenet/blob/master/images/result.jpg)
 ## Demo
 Nhóm đã train được 1 model từ tập dataset, đồng thời đã viết được ứng dụng recognizer cho chữ viết tay. Sau đây là kết quả demo :
+
+![alt](https://github.com/danhNQ7/QuickDraw-Mobilenet/blob/master/images/demo_1.jpg)
+![alt](https://github.com/danhNQ7/QuickDraw-Mobilenet/blob/master/images/demo_2.jpg)
+![alt](https://github.com/danhNQ7/QuickDraw-Mobilenet/blob/master/images/demo_3.jpg)
