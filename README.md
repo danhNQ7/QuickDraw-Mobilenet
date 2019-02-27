@@ -1,7 +1,5 @@
 # Quick, Draw! Doodle Recognition Challenge
-## Đồ án môn học : Máy học trong thị giác máy tính
-### Giảng viên hướng dẫn : Ths. Mai Tiến Dũng
-### Mã môn : CS332.J11.KHTN
+
 ## Giới thiệu đề tài
 Đây là 1 challenge của Google trên Kaggle, dataset lấy từ trò chơi “Quick, Draw !” của Google là các bản vẽ. Mục tiêu đề tài là build được 1 recognizer học từ dataset của trò chơi “Quick, Draw” giúp nhận dạng object từ các bản vẽ tay
 **Input:** Đầu vào là các bản vẽ đc ghi lại dưới dạng vector thời gian
